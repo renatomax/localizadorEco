@@ -1,0 +1,4 @@
+2024/09/29-21:48:29.886 3be4 Reusing MANIFEST C:\Users\renat\OneDrive\Área de Trabalho\final\eco vfinal\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/29-21:48:29.887 3be4 Recovering log #1667
+2024/09/29-21:48:29.950 3be4 Reusing old log C:\Users\renat\OneDrive\Área de Trabalho\final\eco vfinal\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001667.log 
+2024/09/29-21:48:34.641 4540 Manual compaction at level-0 from '\x00\x98\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x99\x00\x00\x00' @ 0 : 0; will stop at (end)

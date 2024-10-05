@@ -1,0 +1,68 @@
+import { entregasTipo } from "@/types/entregasTypes";
+
+export const todasEntregasFake: entregasTipo[] = [
+  {
+    dia: [26, 8, 2024],
+    nome: "Condomínio Castellamare",
+    cidade: "Matinhos - PR",
+    bairro: "Centro",
+    rua: "Osvaldo Tempesta",
+    numero: "1001",
+    coordenadas: {
+      latitude: 0,
+      longitude: 0,
+    },
+    valor: "450,00",
+    pagamento: "Dinheiro",
+    entregador: "Marcos",
+    volume: "Moto",
+  },
+  {
+    dia: [26, 8, 2024],
+    nome: "Condomínio Puerto Rico",
+    cidade: "Matinhos - PR",
+    bairro: "Centro",
+    rua: "Osvaldo Tempesta",
+    numero: "1001",
+    coordenadas: {
+      latitude: 0,
+      longitude: 0,
+    },
+    valor: "450,00",
+    pagamento: "Dinheiro",
+    entregador: "Marcos",
+    volume: "Moto",
+  },
+  {
+    dia: [26, 8, 2024],
+    nome: "Condomínio Saycheless",
+    cidade: "Matinhos - PR",
+    bairro: "Centro",
+    rua: "Osvaldo Tempesta",
+    numero: "1001",
+    coordenadas: {
+      latitude: 0,
+      longitude: 0,
+    },
+    valor: "450,00",
+    pagamento: "Dinheiro",
+    entregador: "Marcos",
+    volume: "Moto",
+  },
+  {
+    dia: [26, 8, 2024],
+    nome: "Galeria Pague Menos",
+    cidade: "Matinhos - PR",
+    bairro: "Centro",
+    rua: "Osvaldo Tempesta",
+    numero: "1001",
+    coordenadas: {
+      latitude: 0,
+      longitude: 0,
+    },
+    valor: "450,00",
+    pagamento: "Dinheiro",
+    entregador: "Marcos",
+    volume: "Moto",
+  },
+];

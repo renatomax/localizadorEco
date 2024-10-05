@@ -1,0 +1,45 @@
+2024/09/30-20:36:45.724 4af4 Reusing MANIFEST C:\Users\renat\OneDrive\Área de Trabalho\final\eco vfinal\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2024/09/30-20:36:45.731 4af4 Recovering log #88
+2024/09/30-20:36:45.732 4af4 Reusing old log C:\Users\renat\OneDrive\Área de Trabalho\final\eco vfinal\.wwebjs_auth\session\Default\Local Storage\leveldb/000088.log 
+2024/09/30-20:38:49.579 23ec Level-0 table #92: started
+2024/09/30-20:38:49.587 23ec Level-0 table #92: 13758 bytes OK
+2024/09/30-20:38:49.590 23ec Delete type=0 #88
+2024/10/01-11:03:55.962 488c Level-0 table #94: started
+2024/10/01-11:03:55.970 488c Level-0 table #94: 15013 bytes OK
+2024/10/01-11:03:55.972 488c Delete type=0 #91
+2024/10/01-16:27:55.646 3b84 Level-0 table #96: started
+2024/10/01-16:27:55.656 3b84 Level-0 table #96: 15607 bytes OK
+2024/10/01-16:27:55.659 3b84 Delete type=0 #93
+2024/10/01-16:27:55.665 3b84 Compacting 4@0 + 1@1 files
+2024/10/01-16:27:55.676 3b84 Generated table #97@0: 495 keys, 9758 bytes
+2024/10/01-16:27:55.676 3b84 Compacted 4@0 + 1@1 files => 9758 bytes
+2024/10/01-16:27:55.678 3b84 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/01-16:27:55.679 3b84 Delete type=2 #86
+2024/10/01-16:27:55.679 3b84 Delete type=2 #89
+2024/10/01-16:27:55.679 3b84 Delete type=2 #92
+2024/10/01-16:27:55.679 3b84 Delete type=2 #94
+2024/10/01-16:27:55.679 3b84 Delete type=2 #96
+2024/10/02-04:58:23.152 30ec Level-0 table #99: started
+2024/10/02-04:58:23.160 30ec Level-0 table #99: 14124 bytes OK
+2024/10/02-04:58:23.163 30ec Delete type=0 #95
+2024/10/02-16:09:00.501 a04 Level-0 table #101: started
+2024/10/02-16:09:00.508 a04 Level-0 table #101: 15320 bytes OK
+2024/10/02-16:09:00.511 a04 Delete type=0 #98
+2024/10/03-11:39:53.468 4ccc Level-0 table #103: started
+2024/10/03-11:39:53.477 4ccc Level-0 table #103: 14803 bytes OK
+2024/10/03-11:39:53.480 4ccc Delete type=0 #100
+2024/10/03-18:20:10.027 17a4 Level-0 table #105: started
+2024/10/03-18:20:10.037 17a4 Level-0 table #105: 15847 bytes OK
+2024/10/03-18:20:10.040 17a4 Delete type=0 #102
+2024/10/03-18:20:10.043 17a4 Compacting 4@0 + 1@1 files
+2024/10/03-18:20:10.050 17a4 Generated table #106@0: 495 keys, 8882 bytes
+2024/10/03-18:20:10.050 17a4 Compacted 4@0 + 1@1 files => 8882 bytes
+2024/10/03-18:20:10.052 17a4 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/10/03-18:20:10.052 17a4 Delete type=2 #97
+2024/10/03-18:20:10.052 17a4 Delete type=2 #99
+2024/10/03-18:20:10.053 17a4 Delete type=2 #101
+2024/10/03-18:20:10.053 17a4 Delete type=2 #103
+2024/10/03-18:20:10.053 17a4 Delete type=2 #105
+2024/10/04-11:50:57.851 4a9c Level-0 table #108: started
+2024/10/04-11:50:57.858 4a9c Level-0 table #108: 14545 bytes OK
+2024/10/04-11:50:57.861 4a9c Delete type=0 #104
