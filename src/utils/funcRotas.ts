@@ -4,7 +4,7 @@ import { entregasTipo } from "@/types/entregasTypes";
 import io, { Socket } from "socket.io-client";
 
 /**Incializando conexão com webSocket */
-const socket: Socket = io("http://localhost:3000");
+const socket: Socket = io("https://localizador-eco-ffn7.vercel.app");
 
 /************************************************** ROTAS DEFINIDAS PRA FUNCIONAREM APENAS COM WEBSOCKETS */
 
@@ -17,7 +17,8 @@ export async function informarUpEntregas() {
 /************************************************** CLIENTE TRABALHANDO COM ROTAS PARA ENTREGAS *************/
 
 export async function todasEntregas() {
-  const urlEntregaNova = "http://localhost:3000/api/entregasRot/rotaEntregas";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/rotaEntregas";
   const opts = {
     method: "GET",
   };
@@ -33,7 +34,7 @@ export async function todasEntregas() {
 
 export async function todasEntregasRelatorio() {
   const urlEntregaNova =
-    "http://localhost:3000/api/entregasRot/rotaEntregasRelatorio";
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/rotaEntregasRelatorio";
   const opts = {
     method: "GET",
   };
@@ -48,7 +49,8 @@ export async function todasEntregasRelatorio() {
 }
 
 export async function criarEntregaRot(entrega: entregasTipo) {
-  const urlEntregaNova = "http://localhost:3000/api/entregasRot/rotaEntregas";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/rotaEntregas";
   const opts = {
     method: "POST",
     headers: {
@@ -68,7 +70,7 @@ export async function criarEntregaRot(entrega: entregasTipo) {
 
 export async function atualizandoEntregaRot(entrega: entregasTipo) {
   const urlEntregaNova =
-    "http://localhost:3000/api/entregasRot/atualizandoEntregas";
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/atualizandoEntregas";
   const opts = {
     method: "POST",
     headers: {
@@ -102,7 +104,8 @@ export async function atualizandoCoordEntrega(
     },
   };
 
-  const urlEntregaNova = "http://localhost:3000/api/entregasRot/uppCoords";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/uppCoords";
   const opts = {
     method: "POST",
     headers: {
@@ -121,7 +124,8 @@ export async function atualizandoCoordEntrega(
 }
 
 export async function deletarEntregaRot(entrega: entregasTipo) {
-  const urlEntregaNova = "http://localhost:3000/api/entregasRot/deleteEntrega";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/entregasRot/deleteEntrega";
   const opts = {
     method: "POST",
     headers: {
@@ -142,7 +146,8 @@ export async function deletarEntregaRot(entrega: entregasTipo) {
 /************************************************** CLIENTE TRABALHANDO COM ROTAS PARA CLIENTES *************/
 
 export async function meusClientes() {
-  const urlClientes = "http://localhost:3000/api/clients/rotaClientes";
+  const urlClientes =
+    "https://localizador-eco-ffn7.vercel.app/api/clients/rotaClientes";
   const opts = {
     method: "GET",
   };
@@ -157,7 +162,8 @@ export async function meusClientes() {
 }
 
 export async function criarClienteRot(cliente: clientesTipo) {
-  const urlEntregaNova = "http://localhost:3000/api/clients/rotaClientes";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/clients/rotaClientes";
   const opts = {
     method: "POST",
     headers: {
@@ -176,7 +182,8 @@ export async function criarClienteRot(cliente: clientesTipo) {
 }
 
 export async function deletarClienteRot(cliente: clientesTipo) {
-  const urlEntregaNova = "http://localhost:3000/api/clients/removerCliente";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/clients/removerCliente";
   const opts = {
     method: "POST",
     headers: {
@@ -196,7 +203,8 @@ export async function deletarClienteRot(cliente: clientesTipo) {
 
 export async function clienteUpdateRota(cliente: clientesTipo) {
   console.log("O cliente recebido aqui no middlewere foi: ", cliente);
-  const urlEntregaNova = "http://localhost:3000/api/clients/atualizarCliente";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/clients/atualizarCliente";
   const opts = {
     method: "POST",
     headers: {
@@ -219,7 +227,8 @@ export async function clienteUpdateRota(cliente: clientesTipo) {
 /************************************************** CLIENTE TRABALHANDO COM ROTAS PARA WHATSAPP *************/
 
 export async function enviarMensagemRot(number: string, message: string) {
-  const urlEntregaNova = "http://localhost:3000/api/whatsappRot/whatsAppRot";
+  const urlEntregaNova =
+    "https://localizador-eco-ffn7.vercel.app/api/whatsappRot/whatsAppRot";
   const opts = {
     method: "POST",
     headers: {
