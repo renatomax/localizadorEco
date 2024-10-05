@@ -59,7 +59,7 @@ app.prepare().then(() => {
   /**Inicializado WebSocket */
   const io = new Server(servidorEco, {
     cors: {
-      origin: "https://localizador-eco-ffn7.vercel.app/",
+      origin: "https://localizador-eco-ffn7.vercel.app",
       methods: ["GET", "POST"],
     },
   });
