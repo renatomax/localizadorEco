@@ -59,7 +59,7 @@ app.prepare().then(() => {
   /**Inicializado WebSocket */
   const io = new Server(servidorEco, {
     cors: {
-      origin: "http://192.168.3.102:3000",
+      origin: "https://localizador-eco-ffn7.vercel.app/",
       methods: ["GET", "POST"],
     },
   });
@@ -133,7 +133,9 @@ app.prepare().then(() => {
   });
 
   servidorEco.listen(3000, () => {
-    console.log("> Servidor rodando em http://localhost:3000");
+    console.log(
+      "> Servidor rodando em https://localizador-eco-ffn7.vercel.app/"
+    );
   });
 });
 
